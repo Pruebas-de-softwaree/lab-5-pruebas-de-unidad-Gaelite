@@ -5,8 +5,16 @@ from user import User
 def run():
     lib = Library()
     lib.add_book(Book("1984", "George Orwell", 1949, "ISBN001"))
+    lib.add_book(Book("To Kill a Mockingbird", "Harper Lee", 1960, "ISBN002"))
+    lib.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, "ISBN003"))
+    lib.add_book(Book("Moby Dick", "Herman Melville", 1851, "ISBN004"))
+    lib.add_book(Book("Pride and Prejudice", "Jane Austen", 1813, "ISBN005"))
+    lib.add_book(Book("War and Peace", "Leo Tolstoy", 1869, "ISBN006"))
 
     lib.add_user(User("Anna", "U001"))
+    lib.add_user(User("Juan", "U002"))
+    lib.add_user(User("Mary", "U003"))
+    lib.add_user(User("Jaciel", "U004"))
 
     while True:
         print("\n--- Library System ---")
@@ -48,4 +56,3 @@ def run():
 if __name__ == "__main__":
     run()
     print("Salio correctamente")
-

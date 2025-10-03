@@ -5,7 +5,7 @@ from user import User
 def run():
     lib = Library()
     lib.add_book(Book("1984", "George Orwell", 1949, "ISBN001"))
-    
+
     lib.add_user(User("Anna", "U001"))
 
     while True:
@@ -47,3 +47,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+    print("Salio correctamente")
+
